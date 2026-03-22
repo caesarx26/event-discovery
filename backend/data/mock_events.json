@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Comedy Magic Show",
+    "category": "comedy",
+    "description": "A hilarious magic show featuring mind-blowing illusions and comedy. Perfect for a night of entertainment with friends and family.",
+    "price_min": 35.00,
+    "price_max": 85.00,
+    "available": 45,
+    "date": "2026-04-15",
+    "link": "https://tickets.example.com/1"
+  },
+  {
+    "id": 2,
+    "title": "Jazz Night at the Pavilion",
+    "category": "music",
+    "description": "Experience world-class jazz musicians performing live. An intimate evening of smooth sounds and sophisticated atmosphere.",
+    "price_min": 50.00,
+    "price_max": 120.00,
+    "available": 28,
+    "date": "2026-04-20",
+    "link": "https://tickets.example.com/2"
+  },
+  {
+    "id": 3,
+    "title": "Stand-up Comedy Hour",
+    "category": "comedy",
+    "description": "Local comedians showcase their best material. Laugh-out-loud entertainment guaranteed with diverse comedic styles.",
+    "price_min": 25.00,
+    "price_max": 60.00,
+    "available": 67,
+    "date": "2026-04-18",
+    "link": "https://tickets.example.com/3"
+  },
+  {
+    "id": 4,
+    "title": "Summer Theater Festival",
+    "category": "theater",
+    "description": "Annual outdoor theater festival featuring classic and contemporary plays. Bring your family for an unforgettable evening.",
+    "price_min": 30.00,
+    "price_max": 95.00,
+    "available": 150,
+    "date": "2026-05-10",
+    "link": "https://tickets.example.com/4"
+  },
+  {
+    "id": 5,
+    "title": "Electronic Music Festival",
+    "category": "music",
+    "description": "Top electronic music DJs spinning tracks all night long. High-energy beats and immersive light show.",
+    "price_min": 65.00,
+    "price_max": 150.00,
+    "available": 200,
+    "date": "2026-05-05",
+    "link": "https://tickets.example.com/5"
+  }
+]
