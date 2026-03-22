@@ -9,7 +9,7 @@ export interface SearchFormProps {
 export function SearchForm({ onSearch, loading = false }: SearchFormProps) {
   const [query, setQuery] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (query.trim()) {
       onSearch(query);

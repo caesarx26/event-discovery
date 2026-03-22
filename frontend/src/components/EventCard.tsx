@@ -1,4 +1,4 @@
-import { Event } from '#/lib/api';
+import type { Event } from '#/lib/api';
 import { Calendar, DollarSign, Users } from 'lucide-react';
 
 export interface EventCardProps {

@@ -1,4 +1,4 @@
-import { AgentResponse } from '#/lib/api';
+import type { AgentResponse } from '#/lib/api';
 import { ChevronRight } from 'lucide-react';
 
 export interface WorkflowStepsProps {

@@ -1,5 +1,5 @@
-import { Event, AgentResponse } from '#/lib/api';
-import { CheckCircle, AlertCircle, Zap } from 'lucide-react';
+import type { Event, AgentResponse } from '#/lib/api';
+import { CheckCircle, Zap } from 'lucide-react';
 
 export interface ExecutionResultProps {
   result: AgentResponse;

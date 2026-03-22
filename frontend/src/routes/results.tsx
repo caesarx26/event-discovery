@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { createFileRoute, useSearch } from '@tanstack/react-router';
 import { SearchForm } from '#/components/SearchForm';
-import { runAgentPipeline, bookTicket, AgentResponse, Event } from '#/lib/api';
+import type {AgentResponse, Event} from '#/lib/api';
+import { runAgentPipeline, bookTicket } from '#/lib/api';
 import { EventCard } from '#/components/EventCard';
 import { ExecutionResult } from '#/components/ExecutionResult';
 import { WorkflowSteps } from '#/components/WorkflowSteps';
